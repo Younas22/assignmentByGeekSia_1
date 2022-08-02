@@ -1,0 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap'); */
+/* body{font-family: 'DM Serif Display', serif;} */
+/* body{font-family: 'Bree Serif', serif;} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{font-family: 'Roboto Mono', monospace;}
+.bg{background-color: crimson;}
+.bg1{background-color: darkorange;}
+#main-header{background-color: antiquewhite;}
+.main-section{background-color: darkgoldenrod;}
+p{color: darkmagenta;}

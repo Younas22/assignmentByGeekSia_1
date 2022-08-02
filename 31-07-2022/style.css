@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap');
+body{font-family: 'Domine', serif;}
+
+.main-header{background-color: rgb(157, 105, 224);}
+.main-section{background-color: rgb(73, 211, 211);}
+.title-section{background-color: cornflowerblue;}
+.first{color: rgb(244, 247, 244);}
+span{background-color: azure;}

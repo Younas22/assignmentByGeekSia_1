@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{font-family: 'Roboto', sans-serif;}
+
+input[type= "text"]{background-color: cornflowerblue;}
+input[type= "text"]{color: azure;}
+input[type= "password"]{background-color: rgb(170, 222, 238);}
+input[type= "password"]{color: darkcyan;}
+
+
+input[type= "submit"]{background-color: crimson;}
+
+/* a[href*= "google"]{color: green;} */
+/* a[href$= ".com"] {color: darkorange;} */
+a[href^= "https"]{color: rgb(255, 0, 0);}

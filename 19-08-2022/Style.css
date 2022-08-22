@@ -1,0 +1,9 @@
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+a:link{color: orange;}
+a:visited{color:  red;}
+a:hover{color: darkgreen;}
+a:active{color: black;}
+
+p:hover{color: blueviolet;}
+p:active{background-color: crimson;}

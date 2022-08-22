@@ -1,0 +1,17 @@
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+div{
+    border: 2px solid red;
+    font-size: 20px;
+    width: 50%;
+}
+
+p{
+    border: 1px solid green;
+    font-size: 100%;
+    background-color: lightgreen;
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+}

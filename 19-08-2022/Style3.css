@@ -1,0 +1,5 @@
+body{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+/* p:last-child{color: green;} */
+
+p:last-of-type{color: red;}

@@ -1,0 +1,12 @@
+body{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+/* body :not(.asad)
+{color: blue;
+    background-color: #ddd;} */
+
+/* div:empty{background-color: blueviolet;
+border: solid 3px darkred;
+width: 700px;
+height: 150px;} */
+
+:root{color: black; background-color: blueviolet;}

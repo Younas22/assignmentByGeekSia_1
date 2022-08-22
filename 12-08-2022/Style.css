@@ -1,0 +1,18 @@
+hr{width: 500px;
+    margin-left: 0px;
+    border: 0.5px dashed red;
+
+}
+
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.box1{box-sizing:border-box;
+    width: 500px;
+background-color: aquamarine;
+border: 6px solid purple;
+padding: 50px;
+margin-bottom: 10px;}
+
+.box2{width: 500px;
+    background-color: aquamarine;
+    border: 6px solid purple;
+    padding: 50px;}

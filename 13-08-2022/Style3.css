@@ -1,0 +1,7 @@
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+input:focus{padding: 5px;
+outline: none;
+border: 1px solid red;}
+
+input:required{color: rgb(156, 226, 43);}

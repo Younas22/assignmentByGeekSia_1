@@ -1,0 +1,5 @@
+body{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+::first-letter{font-size: 40px;}
+h1::selection{background-color: yellow;
+color: black;}

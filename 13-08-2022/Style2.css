@@ -1,0 +1,21 @@
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+a{font-size: xx-large;}
+
+a:link{color: aquamarine;}
+
+a:visited{color: black;}
+
+a:hover{color: cornflowerblue;}
+
+a:active{color: darkblue;}
+
+p:hover{color: coral;}
+
+p:active{background-color: aqua;}
+p{width: 600px;
+font-size: large;
+border: 3px dotted darkblue;
+padding: 10px;}
+
+border:hover{color: deepskyblue;}

@@ -1,0 +1,5 @@
+/* p:first-child{color: blueviolet;}
+p:first-child{font-size: xx-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} */
+
+p:first-of-type{color: rgb(255, 0, 0);}

@@ -1,0 +1,39 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: change-bg-color;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+
+}
+
+.box2{
+    width: 20px;
+    height: 10px;
+    background-color: blueviolet;
+    animation-name: grow-width;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+
+}
+
+@keyframes grow-width{
+    from{
+        width:0px
+    }
+    to{
+        width:1300px;
+    }
+}
+
+@keyframes change-bg-color{
+    from{
+        background: black;
+    }
+    to{
+        background: darkgreen;
+    }
+}

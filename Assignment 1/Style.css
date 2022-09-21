@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    background: #1A6ED8 ;
+    height: 60px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul{
+    margin-right: 20px;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav ul li .number{
+    font-weight: bold;
+    padding: 0 100px;
+}
+
+.main-image{
+    position: relative;
+    background: url(./img/Showcase\ Image2.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+}
+
+.container h1{
+    margin: 50px 0;
+}
+
+.left-col, .center-col, .center1-col, .right-col{
+    width: 20%;
+    text-align: center;
+    float: left;
+    padding: 0px 100px;
+}
+
+.container1{
+    position: relative;
+    padding: 10px;
+    margin: 40px auto;
+    }
+
+.features{
+    padding: 5rem 0rem;
+}
+
+.box{
+    width: 25%;
+    float: left;
+    padding: 1rem;
+}
+
+
+
+.box-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box-wrapper h3{
+    text-align: center;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    color: #1A6ED8;
+}
+
+.box-wrapper p{
+    font-size: 11px;
+}
+
+
+.box-container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Abyssinica SIL', serif;
+    background-color: #ddd;
+    
+}
+.container{
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 120px 0;
+
+}
+
+
+
+/* >>>>>>>>>>---------- Showcase Styling ----------<<<<<<<<<< */
+.showcase{
+    background: #ddd;
+    
+}
+
+.column{
+    height: 400px;
+    
+}
+
+
+.column1{
+    float: left;
+    width: 40%;
+}
+
+.column2{
+    float: right;
+    width: 40%;
+}
+
+.text-box{
+    
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding: 30px; */
+    text-align: center;
+    background: white;
+}
+
+.image-box{
+    
+    height: 100%;
+    
+}
+
+.column .image-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.text-box .featured{
+    padding: 20px 0;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: grey;
+}
+
+h1{
+    color: #0454c4;
+    padding-bottom: 20px;
+}
+
+.down{
+    font-size: 14px;
+    color: grey;
+    padding: 20px;
+    margin: 0 100px;
+}
